@@ -58,6 +58,7 @@
 
 .aboutSec{
     background-color: #222831;
+    border-bottom: 3px solid #2a2d2d;
 }
 
 .aboutSec h1{
@@ -66,8 +67,20 @@
     font-weight: bold;
 }
 
+.aboutSec span{
+    color: #00ADB5;
+} 
+
 .aboutSec p{
-    color: white;
+    color: #eeeeee;
+}
+
+.aboutImg{
+    background-image: url('./assests/Union.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 @media (min-width : 1460px){
